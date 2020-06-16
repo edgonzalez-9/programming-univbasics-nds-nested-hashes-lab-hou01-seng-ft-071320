@@ -54,4 +54,5 @@ def aoh_update(aoh, row, key, new_value)
     {:name=>"Bruce Green", :occupation=>"Fan of Mildred" },
     ]
     aoh[row][key] = [new_value]
+    aoh[row][key]
 end
